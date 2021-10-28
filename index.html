@@ -14,11 +14,12 @@
       Toggle Darkmode
     </button>
 
-    <div class="question" id="question1">
+    <div class="question-container" id="question1">
       <fieldset>
         <legend for="q1"><b>Fråga1</b></legend>
-        <div>
+        <div class="question">
           <p>Vad heter jag?</p>
+          <img src="src/pic1.jpg" alt="black mushrooms" style="height: 200px;"> <br>
           <input type="radio" name="q1" id="q1a1" value="correct" />
           <label for="q1a1">Hanna</label>
           <input type="radio" name="q1" id="q1a2" value="wrong" />
@@ -28,10 +29,10 @@
         </div>
       </fieldset>
     </div>
-    <div class="question" id="question2">
+    <div class="question-container" id="question2">
       <fieldset>
         <legend for="q2"><b>Fråga2</b></legend>
-        <div>
+        <div class="question">
           <p>Hur gammal är jag?</p>
           <input type="radio" name="q2" id="q2a1" value="wrong"  />
           <label for="q2a1">102</label>
@@ -42,9 +43,10 @@
         </div>
       </fieldset>
     </div>
-    <div class="question" id="question3">
+    <div class="question-container" id="question3">
       <fieldset>
         <legend for="q3"><b>Fråga3</b></legend>
+<div class="question">
         <p>Vilken hårfärg har jag?</p>
         <input type="radio" name="q3" id="q3a1" value="wrong" />
         <label for="q3a1">grönt</label>
@@ -52,11 +54,13 @@
         <label for="q3a2">ojämnt</label>
         <input type="radio" name="q3" id="q3a3" value="wrong"/>
         <label for="q3a3">perfekt vitt</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question4">
+    <div class="question-container" id="question4">
       <fieldset>
         <legend for="q4"><b>Fråga4</b></legend>
+        <div class="question">
         <p>Hur lång är jag?</p>
         <input type="radio" name="q4" id="q4a1" value="wrong" />
         <label for="q4a1">tillräckligt</label>
@@ -64,11 +68,13 @@
         <label for="q4a2">för lång</label>
         <input type="radio" name="q4" id="q4a3" value="correct"/>
         <label for="q4a3">173</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question5">
+    <div class="question-container" id="question5">
       <fieldset>
         <legend for="q5"><b>Fråga5</b></legend>
+        <div class="question">
         <p>Var bor jag?</p>
         <input type="radio" name="q5" id="" value="correct" />
         <label for="">I anders crib</label>
@@ -76,11 +82,13 @@
         <label for="">där jag vill</label>
         <input type="radio" name="q5" id="" value="wrong"/>
         <label for="">i Oslo</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question6">
+    <div class="question-container" id="question6">
       <fieldset>
         <legend for="q6"><b>Fråga6</b></legend>
+        <div class="question">
         <p>Var är jag född?</p>
         <input type="radio" name="q6" id="" value="wrong" />
         <label for="">fel</label>
@@ -88,11 +96,13 @@
         <label for="">Rätt</label>
         <input type="radio" name="q6" id="" value="wrong"/>
         <label for="">fel</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question7">
+    <div class="question-container" id="question7">
       <fieldset>
         <legend for="q7"><b>Fråga7</b></legend>
+        <div class="question">
         <p>Vad heter jag?</p>
         <input type="radio" name="q7" id="" value="wrong" />
         <label for="">fel</label>
@@ -100,11 +110,13 @@
         <label for="">rätt</label>
         <input type="radio" name="q7" id="" value="wrong"/>
         <label for="">fel</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question8">
+    <div class="question-container" id="question8">
       <fieldset>
         <legend for="q8"><b>Fråga8</b></legend>
+        <div class="question">
         <p>Vad heter jag?</p>
         <input type="radio" name="q8" id="" value="wrong" />
         <label for="">fel</label>
@@ -112,11 +124,13 @@
         <label for="">fel</label>
         <input type="radio" name="q8" id="" value="correct"/>
         <label for="">rätt</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question9">
+    <div class="question-container" id="question9">
       <fieldset>
         <legend for="q9"><b>Fråga9</b></legend>
+        <div class="question">
         <p>Vad heter jag?</p>
         <input type="radio" name="q9" id="" value="wrong" />
         <label for="">fel</label>
@@ -124,11 +138,13 @@
         <label for="">rätt</label>
         <input type="radio" name="q9" id="" value="wrong"/>
         <label for="">fel</label>
+      </div>
       </fieldset>
     </div>
-    <div class="question" id="question10">
+    <div class="question-container" id="question10">
       <fieldset>
         <legend for="q10"><b>Fråga10</b></legend>
+        <div class="question">
         <p>Vad heter jag?</p>
         <input type="checkbox" name="q10" id="q10a1" value="wrong">
         <label for="q10a1">fel</label>
@@ -138,7 +154,7 @@
         <label for="q10a3">rätt</label>
         <input type="checkbox" name="q10" id="q10a4" value="wrong">
         <label for="q10a4">fel</label>
-        
+      </div>
       </fieldset>
     </div>
     <button id="check-answers" onClick="checkAnswers();">Check Answers</button>

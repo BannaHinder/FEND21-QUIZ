@@ -21,7 +21,7 @@ let checkAnswers = () => {
   let correctAnswers = 0;
   /////////////////////////////////RadiobuttoNS////////////////////////////////////////////
   for (var i = 1; i <= 9; i++) {
-    var radioButtons = document.getElementsByName("q" + i);
+    var radioButtons = document.getElementsByName("q" + i); //Skitsmart lösning där man automatiskt hämtar alla inputs bara genom att plussa på 1 för varje fråga
     for (var a = 0; a < radioButtons.length; a++) {
       var radio = radioButtons[a];
       if (radio.value == "correct" && radio.checked) {

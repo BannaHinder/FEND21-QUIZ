@@ -4,13 +4,9 @@ body{
 button{
     margin:20px;
 }
-
 #result-container{
     display:none;
-}
-.question{
-    margin-bottom: 30px;
-    padding:5px;
+    text-align: center;
 }
 fieldset{
     border-radius: 7px;
@@ -20,3 +16,15 @@ button{
     padding:5px;
     border-radius: 6px;
 }
+
+input{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.question-container{
+    margin: 20px;
+}
+/* .question{
+    display: flex;
+    flex-direction: column;
+} */
