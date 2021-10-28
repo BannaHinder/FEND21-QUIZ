@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quiz!!!!!!!!</h1>
+    <p>.....om Hanna (för hon hann inte göra ett ämne)</p>
+    <button id="toggle-darkmode"  onclick="toggleDarkMode()">
+      Toggle Darkmode
+    </button>
+
+    <div class="question" id="question1">
+      <fieldset>
+        <legend for="q1"><b>Fråga1</b></legend>
+        <div>
+          <p>Vad heter jag?</p>
+          <input type="radio" name="q1" id="q1a1" value="correct" />
+          <label for="q1a1">Hanna</label>
+          <input type="radio" name="q1" id="q1a2" value="wrong" />
+          <label for="q1a2">Jacob</label>
+          <input type="radio" name="q1" id="q1a3" value="wrong" />
+          <label for="q1a3">Inte Hanna</label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="question" id="question2">
+      <fieldset>
+        <legend for="q2"><b>Fråga2</b></legend>
+        <div>
+          <p>Hur gammal är jag?</p>
+          <input type="radio" name="q2" id="q2a1" value="wrong"  />
+          <label for="q2a1">102</label>
+          <input type="radio" name="q2" id="q2a2" value="correct" />
+          <label for="q2a2">medelålders</label>
+          <input type="radio" name="q2" id="q2a3" value="wrong"/>
+          <label for="q2a3">ung</label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="question" id="question3">
+      <fieldset>
+        <legend for="q3"><b>Fråga3</b></legend>
+        <p>Vilken hårfärg har jag?</p>
+        <input type="radio" name="q3" id="q3a1" value="wrong" />
+        <label for="q3a1">grönt</label>
+        <input type="radio" name="q3" id="q3a2" value="correct"/>
+        <label for="q3a2">ojämnt</label>
+        <input type="radio" name="q3" id="q3a3" value="wrong"/>
+        <label for="q3a3">perfekt vitt</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question4">
+      <fieldset>
+        <legend for="q4"><b>Fråga4</b></legend>
+        <p>Hur lång är jag?</p>
+        <input type="radio" name="q4" id="q4a1" value="wrong" />
+        <label for="q4a1">tillräckligt</label>
+        <input type="radio" name="q4" id="q4a2" value="wrong"/>
+        <label for="q4a2">för lång</label>
+        <input type="radio" name="q4" id="q4a3" value="correct"/>
+        <label for="q4a3">173</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question5">
+      <fieldset>
+        <legend for="q5"><b>Fråga5</b></legend>
+        <p>Var bor jag?</p>
+        <input type="radio" name="q5" id="" value="correct" />
+        <label for="">I anders crib</label>
+        <input type="radio" name="q5" id="" value="wrong"/>
+        <label for="">där jag vill</label>
+        <input type="radio" name="q5" id="" value="wrong"/>
+        <label for="">i Oslo</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question6">
+      <fieldset>
+        <legend for="q6"><b>Fråga6</b></legend>
+        <p>Var är jag född?</p>
+        <input type="radio" name="q6" id="" value="wrong" />
+        <label for="">fel</label>
+        <input type="radio" name="q6" id="" value="correct"/>
+        <label for="">Rätt</label>
+        <input type="radio" name="q6" id="" value="wrong"/>
+        <label for="">fel</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question7">
+      <fieldset>
+        <legend for="q7"><b>Fråga7</b></legend>
+        <p>Vad heter jag?</p>
+        <input type="radio" name="q7" id="" value="wrong" />
+        <label for="">fel</label>
+        <input type="radio" name="q7" id="" value="correct"/>
+        <label for="">rätt</label>
+        <input type="radio" name="q7" id="" value="wrong"/>
+        <label for="">fel</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question8">
+      <fieldset>
+        <legend for="q8"><b>Fråga8</b></legend>
+        <p>Vad heter jag?</p>
+        <input type="radio" name="q8" id="" value="wrong" />
+        <label for="">fel</label>
+        <input type="radio" name="q8" id="" value="wrong"/>
+        <label for="">fel</label>
+        <input type="radio" name="q8" id="" value="correct"/>
+        <label for="">rätt</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question9">
+      <fieldset>
+        <legend for="q9"><b>Fråga9</b></legend>
+        <p>Vad heter jag?</p>
+        <input type="radio" name="q9" id="" value="wrong" />
+        <label for="">fel</label>
+        <input type="radio" name="q9" id="" value="correct"/>
+        <label for="">rätt</label>
+        <input type="radio" name="q9" id="" value="wrong"/>
+        <label for="">fel</label>
+      </fieldset>
+    </div>
+    <div class="question" id="question10">
+      <fieldset>
+        <legend for="q10"><b>Fråga10</b></legend>
+        <p>Vad heter jag?</p>
+        <input type="checkbox" name="q10" id="q10a1" value="wrong">
+        <label for="q10a1">fel</label>
+        <input type="checkbox" name="q10" id="q10a2" value="correct">
+        <label for="q10a2">rätt</label>
+        <input type="checkbox" name="q10" id="q10a3" value="correct">
+        <label for="q10a3">rätt</label>
+        <input type="checkbox" name="q10" id="q10a4" value="wrong">
+        <label for="q10a4">fel</label>
+        
+      </fieldset>
+    </div>
+    <button id="check-answers" onClick="checkAnswers();">Check Answers</button>
+    <div id="result-container">
+      <b id="result">Här skrivs resultatet ut</b>
+      <p>Visst var det lärorikt??</p>
+
+      <br />
+      Vill du prova igen?
+      <button id="reset-button" onclick="reloadPage();">KLIKK ME</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
