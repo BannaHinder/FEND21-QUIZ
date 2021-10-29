@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: darkseagreen;
 }
 button{
     margin:20px;
@@ -11,10 +12,13 @@ button{
 fieldset{
     border-radius: 7px;
     border:double;
+    
 }
 button{
     padding:5px;
     border-radius: 6px;
+    background-color: darkslategrey;
+    color: floralwhite;
 }
 
 input{

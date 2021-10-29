@@ -1,13 +1,19 @@
-document.body.style.backgroundColor = "white";
+document.body.style.backgroundColor = "floralwhite";
 document.body.style.color = "darkslategrey";
+let toggleButton = document.getElementById("toggle-darkmode");
 
 function toggleDarkMode() {
-  if (document.body.style.backgroundColor === "white") {
+  if (document.body.style.backgroundColor === "floralwhite") {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "lightslategray";
+    toggleButton.style.color="darkslategrey";
+    toggleButton.style.backgroundColor="floralwhite";
+
   } else {
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "floralwhite";
     document.body.style.color = "darkslategrey";
+    toggleButton.style.color="floralwhite";
+    toggleButton.style.backgroundColor="darkslategrey";
   }
 }
 
