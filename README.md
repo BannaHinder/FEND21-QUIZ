@@ -1,7 +1,7 @@
 # FEND21-QUIZ
 
-Helloooo
+Hello!
 
+This is a quiz I made for my first course in Javascript. It's a simple Quiz with my favourite things as the topic. Mushrooms!
 
-
-Everything works but the quiz itself is still stupid. Brb
+Enjoy!
